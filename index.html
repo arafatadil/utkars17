@@ -8,7 +8,9 @@
   <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
   <link rel="stylesheet" type="text/css" href="css/index.css">
   <link rel="stylesheet" type="text/css" href="css/dash.css">
-  <link rel="stylesheet" type="text/css" href="css/gallery.css">
+  <link rel="stylesheet" type="text/css" href="css/card.css">
+  <link rel="shortcut icon" type="image/png" href="icons/slogo.png"/>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Raleway:800,400,600' rel='stylesheet' type='text/css'>
   <!-- Chrome, Firefox OS, Opera and Vivaldi -->
 <meta name="theme-color" content="#0d172e">
@@ -32,6 +34,9 @@
    font-size: 1em !important;
    color: #000 !important;
    font-family: Raleway !important;
+},
+#about_us_txt{
+  text-align: justify;
 }
 </style>
   <body id="mypage" data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -50,7 +55,7 @@
                    UTKARSH
                  </a>
               </div>
-              <div id="navbar1" class="navbar-collapse collapse pull-right">
+              <div id="navbar1" class="navbar-collapse collapse pull-right" style=" background: #222;">
                  <ul class="nav navbar-nav">
                     <li ><a href="#Carousal_section">HOME</a></li>
                     <li><a href="#about">ABOUT-US</a></li>
@@ -118,7 +123,7 @@
               <div class="container">
                 <div class="row">
                 <h2 class="about_heading" >ABOUT US</h2><hr>
-                <p>Utkarsh,the largest Hindi cultral fest of North India is one with a motive. Supported by MHRD and organised by ANAMIKA HINDI SOCIETY, the festival was started to promote the importance of Hindi language and with 10 extravagant celebrations,UTKARSH turns 11 this year. Every year the fest has grown and nurtued from plethora of memories, countless dreams and millions of screams. So be a part of something bigger this year, treasure and cherish the aura of joyous moments and witness the colorful blend of culture, drama, music, dance and passion.</p>
+                <p id="about_us_txt">Utkarsh,the largest Hindi cultural fest of North India is one with a motive. Supported by MHRD and organised by ANAMIKA HINDI SOCIETY, the festival was started to promote the importance of Hindi language and with 10 extravagant celebrations,UTKARSH turns 11 this year. Every year the fest has grown and nurtured from plethora of memories, countless dreams and millions of screams. So be a part of something bigger this year, treasure and cherish the aura of joyous moments and witness the colorful blend of culture, drama, music, dance and passion.</p>
 
                 </div>
              </div>
@@ -134,7 +139,7 @@
                             <li class="active"><a href="#ev1" data-toggle="tab" ><i class="fa fa-home" aria-hidden="true">1</i><span class="hidden-xs hidden-sm">HINDI EVENTS</span></a></li>
                             <li><a href="#ev2" data-toggle="tab"><i class="fa fa-tasks" aria-hidden="true">2</i><span class="hidden-xs hidden-sm">CULTURAL EVENTS</span></a></li>
                             <li><a href="#ev3" data-toggle="tab"><i class="fa fa-bar-chart" aria-hidden="true">3</i><span class="hidden-xs hidden-sm">PRONITES</span></a></li>
-                            <li><a href="#ev4" data-toggle="tab"><i class="fa fa-bar-chart" aria-hidden="true">3</i><span class="hidden-xs hidden-sm">INFORMALZ</span></a></li>
+                            <li><a href="#ev4" data-toggle="tab"><i class="fa fa-bar-chart" aria-hidden="true">4</i><span class="hidden-xs hidden-sm">INFORMALZ</span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -529,9 +534,9 @@
 <hr>
 <div class="container" style="margin-top:2%">
 	<div class="row">
-    <center><h1>
+    <center><h2 style="font-weight:bold">
       GALLERY
-    </h1></center><hr>
+    </h2></center><hr>
 		<div class='list-group gallery'>
             <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
                 <a class="thumbnail fancybox" rel="ligthbox" href="icons/gal1.jpg">
@@ -622,10 +627,10 @@
 
             <section id="contact">
 
-            <div class="w3-container" id="contact">
-            <h2 class="contact_section" align="center">CONTACT US</h2><hr>
-           <div class="row">
-              <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-margin">
+            <div class="w3-container" >
+            <h2 class="contact_section" align="center" >CONTACT US</h2><hr>
+           <div class="row" id="contact">
+              <div class="col-xs-6 col-sm-6 col-md-3 col-lg-2 col-margin">
                <div class="w3-card-12">
                 <img src="icons/pandey.jpg" alt="Norway" width="100%">
                 <div class="w3-container ">
@@ -638,7 +643,7 @@
                 </div>
               </div>
 
-             <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-margin">
+             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-2 col-margin">
                <div class="w3-card-12">
                 <img src="icons/animesh.jpg" alt="Norway" width="100%">
                 <div class="w3-container">
@@ -651,7 +656,7 @@
                 </div>
               </div>
 
-              <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-margin">
+              <div class="col-xs-6 col-sm-6 col-md-3 col-lg-2 col-margin">
                <div class="w3-card-12">
                 <img src="icons/dixit.jpg" alt="Norway" width="100%">
                 <div class="w3-container">
@@ -664,7 +669,7 @@
                 </div>
               </div>
 
-             <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-margin">
+             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-2 col-margin">
                <div class="w3-card-12">
                 <img src="icons/sunita.jpg" alt="Norway" width="100%">
                 <div class="w3-container">
@@ -677,7 +682,7 @@
                 </div>
               </div>
 
-              <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-margin">
+              <div class="col-xs-6 col-sm-6 col-md-3 col-lg-2 col-margin">
                <div class="w3-card-12">
                 <img src="icons/divya.jpg" alt="Norway" width="100%">
                 <div class="w3-container">
@@ -690,13 +695,13 @@
                 </div>
               </div>
 
-              <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-margin">
+              <div class="col-xs-6 col-sm-6 col-md-3 col-lg-2 col-margin">
                <div class="w3-card-12">
                 <img src="icons/deepanshu.jpg" alt="Norway" width="100%">
                 <div class="w3-container ">
                  <b><p>Deepanshu Bansal</p></b>
 
-                 <p>Treasurar</p>
+                 <p>Treasurer</p>
                  <p>9812853886</p>
                <!--  <p>xyz@gmail.com</p>-->
                 </div>
@@ -712,7 +717,7 @@
 </section>
 
 
-    <footer class="site-footer" style="vertical-align:center">
+    <!-- <footer class="site-footer" style="vertical-align:center">
 
       <div class="container">
         <div class="col-md-5">
@@ -725,7 +730,108 @@
         </ul>
         </div>
     </div>
-    </footer>
+    </footer> -->
+
+    <footer class="text-center" id="f">
+      <a class="up-arrow" href="#Carousal_section" data-toggle="tooltip" title="TO TOP">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a><br><br>
+      <p>Follow us on  <a style="text-decoration:underline" href="https://www.facebook.com/anamikautkarsh"  title="Visit FB page">Facebook</a>
+        <br>
+        &copy; Copyright Utkarsh.org.in
+      </p>
+      <br>
+      <p >
+      <a style="text-decoration:underline;color:#fff" id="div_developer_btn" href="#pro_sec">Meet the developers</a>
+      </p>
+  </footer>
+<section style="background:#222" id="pro_sec">
+  <div class="container">
+	<div class="row">
+		<div class="col-lg-3 col-sm-offset-1 col-sm-4" >
+
+            <div class="card hovercard" style="  background-color: #fff;">
+                <div class="cardheader">
+
+                </div>
+                <div class="avatar">
+                    <img alt="" src="icons/adil.jpg">
+                </div>
+                <div class="info">
+                    <div class="title">
+                        <a target="_blank" href="http://scripteden.com/">Adil Arafat</a>
+                    </div>
+                    <div class="desc">Passionate frontend-designer</div>
+                    <div class="desc">Content Manager</div>
+                    <div class="desc">And a shayar</div>
+                </div>
+                <div class="bottom">
+
+                    <a class="btn btn-danger btn-sm" rel="publisher"
+                       href="https://plus.google.com/109804274429606537116">
+                        <i class="fa fa-google-plus"></i>
+                    </a>
+                    <a class="btn btn-primary btn-sm" rel="publisher"
+                       href="https://www.facebook.com/adil.arafat.9?fref=ts&ref=br_tf">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-offset-4 col-lg-3 col-sm-offset-1 col-sm-4" >
+
+                <div class="card hovercard" style="  background-color: #fff;">
+                    <div class="cardheader">
+
+                    </div>
+                    <div class="avatar">
+                        <img alt="" src="icons/abhik.jpg">
+                    </div>
+                    <div class="info">
+                        <div class="title">
+                            <a target="_blank" href="http://scripteden.com/">Abhik Setia</a>
+                        </div>
+                        <div class="desc">Back-end and Front-end developer</div>
+                        <div class="desc">Curious developer</div>
+                        <div class="desc">Tech geek</div>
+                    </div>
+                    <div class="bottom">
+                      <a class="btn btn-danger btn-sm" rel="publisher"
+                         href="https://plus.google.com/118224209666098384942">
+                          <i class="fa fa-google-plus"></i>
+                      </a>
+                      <a class="btn btn-primary btn-sm" rel="publisher"
+                         href="https://www.facebook.com/abhik.setia">
+                          <i class="fa fa-facebook"></i>
+                      </a>
+                    </div>
+                </div>
+
+            </div>
+
+	</div>
+</div>
+</section>
+      <style >
+      /* Add a dark background color to the footer */
+      footer {
+          background-color: #2d2d30;
+          color: #f5f5f5;
+          padding: 32px;
+      }
+
+      footer a {
+          color: #f5f5f5;
+      }
+
+      footer a:hover {
+          color: #777;
+          text-decoration: none;
+      }
+      </style>
+
 
             <script type="text/javascript" src="js/jquery-2.2.1.js"></script>
 
@@ -733,15 +839,22 @@
             <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
             <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
             <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-            <script type="text/javascript" src="js/gallery.js"></script>
 
             <script>
+
             $(document).ready(function(){
+              $("#pro_sec").hide();
+              $("#div_developer_btn").click(function(){
+              $("#pro_sec").slideToggle("slow");
+
+              if ($("#pro_sec").is(':visible')) {
+                 $("html, body").animate({scrollTop: $("#pro_sec").offset().top});
+              }
+            });
                $('[data-toggle="offcanvas"]').click(function(){
                    $("#navigation").toggleClass("hidden-xs");
                });
-            });
-                  $(document).ready(function(){
+
               $(".fancybox").fancybox({
                 openEffect: "none",
                 closeEffect: "none"
@@ -750,6 +863,25 @@
             </script>
             <script type="text/javascript">
             $("#nav ul li a[href^='#']").on('click', function(e) {
+
+             // prevent default anchor click behavior
+             e.preventDefault();
+
+             // store hash
+             var hash = this.hash;
+
+             // animate
+             $('html, body').animate({
+                 scrollTop: $(hash).offset().top
+               }, 300, function(){
+
+                 // when done, add hash to url
+                 // (default click behaviour)
+                 window.location.hash = hash;
+               });
+
+            });
+            $("#f p a[href^='#']").on('click', function(e) {
 
              // prevent default anchor click behavior
              e.preventDefault();
