@@ -34,9 +34,6 @@
    font-size: 1em !important;
    color: #000 !important;
    font-family: Raleway !important;
-},
-#about_us_txt{
-  text-align: justify;
 }
 </style>
   <body id="mypage" data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -123,7 +120,7 @@
               <div class="container">
                 <div class="row">
                 <h2 class="about_heading" >ABOUT US</h2><hr>
-                <p id="about_us_txt">Utkarsh,the largest Hindi cultural fest of North India is one with a motive. Supported by MHRD and organised by ANAMIKA HINDI SOCIETY, the festival was started to promote the importance of Hindi language and with 10 extravagant celebrations,UTKARSH turns 11 this year. Every year the fest has grown and nurtured from plethora of memories, countless dreams and millions of screams. So be a part of something bigger this year, treasure and cherish the aura of joyous moments and witness the colorful blend of culture, drama, music, dance and passion.</p>
+                <p style="text-align:justify">Utkarsh,the largest Hindi cultural fest of North India is one with a motive. Supported by MHRD and organised by ANAMIKA HINDI SOCIETY, the festival was started to promote the importance of Hindi language and with 10 extravagant celebrations,UTKARSH turns 11 this year. Every year the fest has grown and nurtured from plethora of memories, countless dreams and millions of screams. So be a part of something bigger this year, treasure and cherish the aura of joyous moments and witness the colorful blend of culture, drama, music, dance and passion.</p>
 
                 </div>
              </div>
@@ -136,10 +133,12 @@
               <h2 class="about_heading" style="color:#fff">EVENTS</h2><hr>
                     <div class="navi">
                         <ul>
-                            <li class="active"><a href="#ev1" data-toggle="tab" ><i class="fa fa-home" aria-hidden="true">1</i><span class="hidden-xs hidden-sm">HINDI EVENTS</span></a></li>
-                            <li><a href="#ev2" data-toggle="tab"><i class="fa fa-tasks" aria-hidden="true">2</i><span class="hidden-xs hidden-sm">CULTURAL EVENTS</span></a></li>
-                            <li><a href="#ev3" data-toggle="tab"><i class="fa fa-bar-chart" aria-hidden="true">3</i><span class="hidden-xs hidden-sm">PRONITES</span></a></li>
-                            <li><a href="#ev4" data-toggle="tab"><i class="fa fa-bar-chart" aria-hidden="true">4</i><span class="hidden-xs hidden-sm">INFORMALZ</span></a></li>
+                            <li class="active"><a href="#ev1" data-toggle="tab" >
+                              <i class="fa " aria-hidden="true">1</i>
+                              <span class="hidden-xs hidden-sm pull-right">HINDI EVENTS</span></a></li>
+                            <li><a href="#ev2" data-toggle="tab"><i class="fa " aria-hidden="true">2</i><span class="hidden-xs hidden-sm">CULTURAL EVENTS</span></a></li>
+                            <li><a href="#ev3" data-toggle="tab"><i class="fa " aria-hidden="true">3</i><span class="hidden-xs hidden-sm">PRONITES</span></a></li>
+                            <li><a href="#ev4" data-toggle="tab"><i class="fa " aria-hidden="true">4</i><span class="hidden-xs hidden-sm">INFORMALZ</span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -630,7 +629,7 @@
             <div class="w3-container" >
             <h2 class="contact_section" align="center" >CONTACT US</h2><hr>
            <div class="row" id="contact">
-              <div class="col-xs-6 col-sm-6 col-md-3 col-lg-2 col-margin">
+              <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-margin">
                <div class="w3-card-12">
                 <img src="icons/pandey.jpg" alt="Norway" width="100%">
                 <div class="w3-container ">
@@ -643,7 +642,7 @@
                 </div>
               </div>
 
-             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-2 col-margin">
+             <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-margin">
                <div class="w3-card-12">
                 <img src="icons/animesh.jpg" alt="Norway" width="100%">
                 <div class="w3-container">
@@ -656,7 +655,7 @@
                 </div>
               </div>
 
-              <div class="col-xs-6 col-sm-6 col-md-3 col-lg-2 col-margin">
+              <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-margin">
                <div class="w3-card-12">
                 <img src="icons/dixit.jpg" alt="Norway" width="100%">
                 <div class="w3-container">
@@ -669,7 +668,7 @@
                 </div>
               </div>
 
-             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-2 col-margin">
+             <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-margin">
                <div class="w3-card-12">
                 <img src="icons/sunita.jpg" alt="Norway" width="100%">
                 <div class="w3-container">
@@ -682,7 +681,7 @@
                 </div>
               </div>
 
-              <div class="col-xs-6 col-sm-6 col-md-3 col-lg-2 col-margin">
+              <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-margin">
                <div class="w3-card-12">
                 <img src="icons/divya.jpg" alt="Norway" width="100%">
                 <div class="w3-container">
@@ -695,7 +694,7 @@
                 </div>
               </div>
 
-              <div class="col-xs-6 col-sm-6 col-md-3 col-lg-2 col-margin">
+              <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-margin">
                <div class="w3-card-12">
                 <img src="icons/deepanshu.jpg" alt="Norway" width="100%">
                 <div class="w3-container ">
@@ -745,10 +744,14 @@
       <a style="text-decoration:underline;color:#fff" id="div_developer_btn" href="#pro_sec">Meet the developers</a>
       </p>
   </footer>
-<section style="background:#222" id="pro_sec">
+<section style="background:#222;padding-top:4%" id="pro_sec">
+  <center>
+  <h2 style="color:#fff">Developers here</h2>
+</center>
+  <hr>
   <div class="container">
 	<div class="row">
-		<div class="col-lg-3 col-sm-offset-1 col-sm-4" >
+		<div class="col-lg-3 col-lg-offset-1 col-md-5  col-sm-5" >
 
             <div class="card hovercard" style="  background-color: #fff;">
                 <div class="cardheader">
@@ -759,9 +762,9 @@
                 </div>
                 <div class="info">
                     <div class="title">
-                        <a target="_blank" href="http://scripteden.com/">Adil Arafat</a>
+                        <a target="_blank" href="https://www.facebook.com/adil.arafat.9?fref=ts&ref=br_tf">Adil Arafat</a>
                     </div>
-                    <div class="desc">Passionate frontend-designer</div>
+                    <div class="desc">Passionate frontend designer</div>
                     <div class="desc">Content Manager</div>
                     <div class="desc">And a shayar</div>
                 </div>
@@ -780,7 +783,7 @@
             </div>
 
         </div>
-        <div class="col-lg-offset-4 col-lg-3 col-sm-offset-1 col-sm-4" >
+        <div class="col-lg-offset-4 col-md-offset-1 col-md-5 col-lg-3 col-sm-offset-1 col-sm-5" >
 
                 <div class="card hovercard" style="  background-color: #fff;">
                     <div class="cardheader">
@@ -791,7 +794,7 @@
                     </div>
                     <div class="info">
                         <div class="title">
-                            <a target="_blank" href="http://scripteden.com/">Abhik Setia</a>
+                            <a target="_blank" href="https://www.facebook.com/abhik.setia">Abhik Setia</a>
                         </div>
                         <div class="desc">Back-end and Front-end developer</div>
                         <div class="desc">Curious developer</div>
